@@ -1,0 +1,39 @@
+
+.card-project {
+  height: 40vh;
+  margin-bottom: 28px;
+  border-radius: 8px;
+  &:hover{
+    box-shadow: 2px 2px rgba(0,0,0,0.3);
+  }
+
+  .card-project-body{
+    width: 50%;
+
+  }
+  .card-project-title{
+    font-size: 20px;
+    background-color: rgb(248, 255, 218);
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+  }
+  
+  .card-project-background {
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+  
+  .card-project-description{
+    font-style: italic;
+  }
+}
+
+
+.without-decoration {
+  &:hover{
+    text-decoration: none;
+  }
+}
