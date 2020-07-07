@@ -1,13 +1,3 @@
-.icon-programming {
-  padding: 12px;
-  border: 1px solid gray;
-  border-radius: 8px;
-  margin: 4px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .icon-navbar {
   color: yellow;
   font-size: 20px;
@@ -22,4 +12,44 @@
   &:hover {
     color: rgb(223, 223, 0);
   }
+}
+
+.color-unbelievable{
+  background-color: red;
+  height: 5vh;
+  width: 5vh;
+  border: 1px gray solid;
+  border-radius: 4px;
+}
+
+.color-impressive{
+  background-color: green;
+  height: 5vh;
+  width: 5vh;
+  border: 1px gray solid;
+  border-radius: 4px;
+}
+
+.color-good{
+  background-color: $good;
+  height: 5vh;
+  width: 5vh;
+  border: 1px gray solid;
+  border-radius: 4px;
+}
+
+.color-medium{
+  background-color: $medium;
+  height: 5vh;
+  width: 5vh;
+  border: 1px gray solid;
+  border-radius: 4px;
+}
+
+.color-basic{
+  background-color: $basic;
+  height: 5vh;
+  width: 5vh;
+  border: 1px gray solid;
+  border-radius: 4px;
 }
