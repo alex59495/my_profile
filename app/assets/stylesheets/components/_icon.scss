@@ -30,6 +30,14 @@
   border-radius: 4px;
 }
 
+.color-good-w-trans{
+  background-color: rgb(255, 180, 255);
+  height: 5vh;
+  width: 5vh;
+  border: 1px gray solid;
+  border-radius: 4px;
+}
+
 .color-good{
   background-color: $good;
   height: 5vh;
@@ -38,8 +46,24 @@
   border-radius: 4px;
 }
 
+.color-medium-w-trans{
+  background-color: rgb(214, 255, 180);
+  height: 5vh;
+  width: 5vh;
+  border: 1px gray solid;
+  border-radius: 4px;
+}
+
 .color-medium{
   background-color: $medium;
+  height: 5vh;
+  width: 5vh;
+  border: 1px gray solid;
+  border-radius: 4px;
+}
+
+.color-basic-w-trans{
+  background-color: rgb(180, 250, 255);
   height: 5vh;
   width: 5vh;
   border: 1px gray solid;

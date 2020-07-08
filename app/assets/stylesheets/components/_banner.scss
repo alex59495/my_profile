@@ -1,18 +1,34 @@
 .banner {
-  background-image: linear-gradient(rgba(38, 0, 255, 0.5), rgba(38, 0, 255, 0.5)), url("https://media.giphy.com/media/YnlDGfCxyOIYTDp86I/giphy.gif");
+  background-color: $background;
   background-position: center;
   background-size: cover;
-  background-color: #FFFFFF;
   background-blend-mode: luminosity;
   color: white;
   height: 100vh;
+  position: relative;
+  z-index: -1;
     
   .banner-name {
     font-size: 64px;
     font-weight: bold;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 30vh;
   }
 
   .banner-job {
     font-size: 32px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50vh;
+  }
+
+  .banner-loc {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 70vh;
   }
 }
