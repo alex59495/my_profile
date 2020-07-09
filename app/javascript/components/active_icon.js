@@ -9,7 +9,6 @@ const activeIcon = () => {
   const iconHome = document.getElementById("icon-home");
 
   const observerGame = new IntersectionObserver(function(entries) {
-    console.log(entries[0].isIntersecting);
     if(entries[0].isIntersecting === true) {
       iconGame.classList.add('active');
     } else {

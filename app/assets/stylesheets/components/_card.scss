@@ -1,6 +1,45 @@
+@media (max-width: 575px) {
+  .card-project {
+    display: block;
+  }
+  .card-project-body {
+    width: 100%;
+  }
+  .card-project-background {
+    width: 100%;
+    min-height: 30vh;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  .card-project-title{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  .flip-card {
+    width: 50%
+  }
+}
+
+@media (min-width: 575px) {
+  .card-project {
+    display: flex;
+    height: 40vh;
+  }
+  .card-project-body {
+    width: 50%;
+  }
+  .card-project-background {
+    width: 50%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  .card-project-title{
+    border-top-left-radius: 8px;
+  }
+}
+
 .card-project {
-  height: 40vh;
-  width: 90%;
+  width: 100%;
   box-shadow:  0 7px 30px 0px rgba(150,170,180,0.5);
   border-radius: 8px;
   transition: all 0.5s ease-out;
@@ -8,20 +47,15 @@
     box-shadow:  0 7px 20px 0px $good;
   }
   .card-project-background {
-    width: 50%;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
   }
   .card-project-body {
-    width: 50%;
     .card-project-title {
       padding: 4px;
       padding-left: 10px;
       font-size: 24px;
-      border-top-left-radius: 8px;
       background: linear-gradient(rgba(0, 0, 92, 1), 90%, rgba(255, 255, 255, 0.5));
       color: white;
     }
@@ -53,7 +87,16 @@
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  border-radius: 8px;
+  box-shadow:  0 4px 30px 0px rgba(150,170,180,0.5);
+  border-radius: 4px;
+}
+
+.flip-card-top-background {
+  position: absolute;
+  height: 20%;
+  width: 100%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */

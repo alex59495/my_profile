@@ -1,7 +1,6 @@
 require("particles.js")
 
 const particleJS = () => {
-  console.log()
   particlesJS('particles-js', 
   {
     "particles": {

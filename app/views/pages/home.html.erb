@@ -1,5 +1,5 @@
 <div class="d-flex">
-  <div class="navbar d-flex flex-column justify-content-between">
+  <div class="navbar">
     <%= render 'shared/navbar' %>
   </div>
   <div class="cv-body flex-grow-1">
@@ -31,10 +31,12 @@
             </div>
           <% end %>
         </div>
-        <div class="skills row">
+        <div class="row skills justify-content-center">
           <% @skills.each do |skill| %>
             <div class="flip-card m-2 col-sm-3 col-md-2">
-              <div class= "flip-card-inner <%= skill.level %>">
+              <div class= "flip-card-inner">
+                <div class="flip-card-top-background <%= skill.level %>">
+                </div>
                 <div class="flip-card-front">
                   <svg height="50px" width="50px" viewBox="0 0 128 128">
                     <%= skill.svg_path.html_safe %>
@@ -51,7 +53,7 @@
 
       <div class="projects pb-5" id="projects">
         <h1>My lasts projects</h1>
-          <div class="card-project d-flex my-5">
+          <div class="card-project my-5">
             <div class="card-project-body">
               <div class="card-project-title">
                 Sorotitree
@@ -66,7 +68,7 @@
               <% end %>
             </div>
           </div>
-          <div class="card-project d-flex">
+          <div class="card-project">
             <div class="card-project-body">
               <div class="card-project-title">
                 Search 4 Class

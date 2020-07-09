@@ -1,6 +1,17 @@
-.container-profile{
-  padding-right: 40px;
-  padding-top: 40px;
-  padding-bottom: 20px;
-  padding-left: 90px;
+@media (max-width: 575px) {
+  .container-profile{
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+  }
+}
+
+@media (min-width: 575px) {
+  .container-profile{
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 90px;
+  }
 }
