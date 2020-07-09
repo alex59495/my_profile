@@ -5,8 +5,8 @@
   <div class="cv-body flex-grow-1">
     <div id="home">
       <div id="particles-js" class="banner">
-        <div class="banner-name">
-          Alexis Lenoir
+        <div class="banner-name d-flex justify-content-center">
+          <p style="text-shadow: -3px 3px 2px rgb(106, 9, 125);">A</p>lexis <p class="ml-4" style="text-shadow: -3px 3px 2px rgb(106, 9, 125);">L</p>enoir
         </div>
         <div class="banner-job">
           FullStack Developper
@@ -19,7 +19,9 @@
     <div class="container-profile">
       <div class="skills mb-5" id="skills">
         <!-- Button trigger modal -->
-        <h1>Skills & Tools</h1>
+        <h1 class="d-flex justify-content-center">
+          <p style="text-shadow: -2px 2px 2px rgb(106, 9, 125);">S</p>kills & Tools
+        </h1>
         <div class="skills-notes d-flex justify-content-around my-3">
           <% @levels.each do |level| %>
             <div class="skills-<%= level %> d-flex align-items-center my-2">
@@ -52,11 +54,13 @@
       </div>
 
       <div class="projects pb-5" id="projects">
-        <h1>My lasts projects</h1>
+        <h1 class="d-flex justify-content-center">
+        <p style="text-shadow: -2px 2px 2px rgb(106, 9, 125);">M</p>y lastest projects
+        </h1>
           <div class="card-project my-5">
             <div class="card-project-body">
-              <div class="card-project-title">
-                Sorotitree
+              <div class="card-project-title d-flex justify-content-center">
+                <p class="m-0" style="text-shadow: -2px 2px 2px rgb(106, 9, 125);">S</p>orotitree
               </div>
               <div class="card-project-description">
                 Final project from Le Wagon which allow women to enter in contact to talk about tabu subjects they want
@@ -70,8 +74,8 @@
           </div>
           <div class="card-project">
             <div class="card-project-body">
-              <div class="card-project-title">
-                Search 4 Class
+              <div class="card-project-title d-flex justify-content-center">
+                <p class="m-0" style="text-shadow: -2px 2px 2px rgb(106, 9, 125);">S</p>earch 4 Class
               </div>
               <div class="card-project-description">
                 First project from Le Wagon. "AirBnb like" to connect teachers and students.
@@ -85,8 +89,10 @@
           </div>
       </div>
       <div class="snake-game d-flex flex-column align-items-center" id="game">
-        <h1>Let's relax</h1>
-        <p class="align-self-start">If you don't want to search for other CV now, if you want to take a break or if you just want to compete here's a little game for you <i>(my actual best is <strong>72</strong>)</i></p>
+        <h1 class="d-flex justify-content-center">
+          <p style="text-shadow: -2px 2px 2px rgb(106, 9, 125);">L</p>et's relax
+        </h1>
+        <p class="align-self-start">If you don't want to search for another CV now, if you want to take a break or if you just want some entertainement here's a little game for you <i>(my actual best is <strong>72</strong>)</i></p>
         <button type="button" class="btn-blue-dark mb-3" data-toggle="modal" data-target="#ModalSnake">
           How to play
         </button>
