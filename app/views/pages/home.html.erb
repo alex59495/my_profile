@@ -3,19 +3,21 @@
     <%= render 'shared/navbar' %>
   </div>
   <div class="cv-body flex-grow-1">
-    <div id="particles-js" class="banner">
-      <div class="banner-name">
-        Alexis Lenoir
-      </div>
-      <div class="banner-job">
-        FullStack Developper
-      </div>
-      <div class="banner-loc">
-        Currently in Rio de Janeiro
+    <div id="home">
+      <div id="particles-js" class="banner">
+        <div class="banner-name">
+          Alexis Lenoir
+        </div>
+        <div class="banner-job">
+          FullStack Developper
+        </div>
+        <div class="banner-loc">
+          Currently in Rio de Janeiro
+        </div>
       </div>
     </div>
     <div class="container-profile">
-      <div class="skills" id="skills">
+      <div class="skills mb-5" id="skills">
         <!-- Button trigger modal -->
         <h1>Skills & Tools</h1>
         <div class="skills-notes d-flex justify-content-around my-3">
@@ -29,7 +31,7 @@
             </div>
           <% end %>
         </div>
-        <div class="skills row mb-5">
+        <div class="skills row">
           <% @skills.each do |skill| %>
             <div class="flip-card m-2 col-sm-3 col-md-2">
               <div class= "flip-card-inner <%= skill.level %>">
@@ -47,10 +49,9 @@
         </div>
       </div>
 
-      <div class="projects mb-5" id="projects">
-        <h1>Projects</h1>
-        <%= link_to "http://www.sororitree.org/", class:"without-decoration" do %>
-          <div class="card-project d-flex">
+      <div class="projects pb-5" id="projects">
+        <h1>My lasts projects</h1>
+          <div class="card-project d-flex my-5">
             <div class="card-project-body">
               <div class="card-project-title">
                 Sorotitree
@@ -59,11 +60,12 @@
                 Final project from Le Wagon which allow women to enter in contact to talk about tabu subjects they want
               </div>
             </div>
-            <div class="card-project-background" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= image_path 'Banner-sororitree.jpg' %>')">
+            <div class="card-project-background d-flex justify-content-center align-items-end" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= image_path 'Sororitree.png' %>')">
+              <%= link_to "http://www.sororitree.org/", class:"without-decoration" do %>
+                <i class="fas fa-eye icon-eye"></i>
+              <% end %>
             </div>
           </div>
-        <% end %>
-        <%= link_to "https://mmister-cocktail-alexis59.herokuapp.com/", class:"without-decoration" do %>
           <div class="card-project d-flex">
             <div class="card-project-body">
               <div class="card-project-title">
@@ -73,14 +75,17 @@
                 First project from Le Wagon. "AirBnb like" to connect teachers and students.
               </div>
             </div>
-            <div class="card-project-background" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= image_path 'search-4-class.jpg' %>')">
+            <div class="card-project-background d-flex justify-content-center align-items-end" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= image_path 'Search-4-Class.png' %>')">
+              <%= link_to "https://mmister-cocktail-alexis59.herokuapp.com/", class:"without-decoration" do %>
+                <i class="fas fa-eye icon-eye"></i>
+              <% end %>
             </div>
           </div>
-        <% end %>
       </div>
       <div class="snake-game d-flex flex-column align-items-center" id="game">
-        <h1 class="align-self-start">Let's play</h1>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalSnake">
+        <h1>Let's relax</h1>
+        <p class="align-self-start">If you don't want to search for other CV now, if you want to take a break or if you just want to compete here's a little game for you <i>(my actual best is <strong>72</strong>)</i></p>
+        <button type="button" class="btn-blue-dark mb-3" data-toggle="modal" data-target="#ModalSnake">
           How to play
         </button>
         <%= render 'shared/modal_snake' %>
@@ -102,6 +107,22 @@
         </div>
         <canvas id="gameCanvas" width="400" height="400" class="mb-4">
         </canvas>
+      </div>
+      <div class="contact d-flex flex-column align-items-center">
+        <div class="mb-2" style="font-size: 22px;">
+          Feel free to contact me ;)
+        </div>
+        <div class="d-flex">
+          <a href="https://www.linkedin.com/in/alexis-lenoir-857496ab/" class="icon-social-large mx-3">
+              <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/alex59495" class="icon-social-large mx-3">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:alexis.lenoir60@gmail.com" target="_blank" class="icon-social-large mx-3">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
       </div>
     </div>
   </div>

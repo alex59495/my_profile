@@ -1,1 +1,9 @@
 // Specific CSS for your home-page
+body {
+  background: $background;
+  color: $blue-dark;
+  h1 {
+    text-align: center;
+    border-bottom: solid 0.5px $blue-dark;
+  }
+}

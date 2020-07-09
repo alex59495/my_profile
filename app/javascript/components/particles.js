@@ -13,13 +13,13 @@ const particleJS = () => {
         }
       },
       "color": {
-        "value": "#f6ff00"
+        "value": "#c060a1"
       },
       "shape": {
         "type": "circle",
         "stroke": {
           "width": 0,
-          "color": "#f6ff00"
+          "color": "#c060a1"
         },
         "polygon": {
           "nb_sides": 5
@@ -53,7 +53,7 @@ const particleJS = () => {
       "line_linked": {
         "enable": true,
         "distance": 300,
-        "color": "#f6ff00",
+        "color": "#c060a1",
         "opacity": 0.4,
         "width": 2
       },

@@ -73,22 +73,25 @@ const snakeGame = () => {
       }
 
       // draw apple
-      context.fillStyle = 'yellow';
+      context.fillStyle = '#c060a1';
       context.fillRect(apple.x, apple.y, grid-1, grid-1);
 
       // draw snake one cell at a time and modify color within the length of the snake
       if (snake.maxCells < 19) {
-        context.fillStyle = 'rgb(180, 250, 255)';
+        context.fillStyle = 'rgb(192, 96, 161)';
       } else if (snake.maxCells < 34) {
-        context.fillStyle = 'rgb(214, 255, 180)';
+        context.fillStyle = 'rgb(106, 9, 125)';
       } else if (snake.maxCells < 49) {
-        context.fillStyle = 'rgb(255, 180, 255)';
+        context.fillStyle = 'rgb(202, 184, 19)';
       }
       else if (snake.maxCells < 64) {
         context.fillStyle = 'green';
       }
-      else {
+      else if (snake.maxCells < 89) {
         context.fillStyle = 'red';
+      }
+      else {
+        context.fillStyle = 'black';
       }
       snake.cells.forEach(function(cell, index) {
         

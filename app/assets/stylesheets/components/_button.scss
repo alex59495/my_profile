@@ -1,0 +1,10 @@
+.btn-blue-dark{
+  background-color: $blue-dark;
+  border-radius: 4px;
+  border: none;
+  padding: 4px 10px;
+  color: white;
+  &:hover{
+    box-shadow:  0 7px 30px 0px rgba(150,170,180,0.5);
+  } 
+}

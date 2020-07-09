@@ -3,19 +3,28 @@
   .modal-content {
     background-color: $background;
   }
+
+  .modal-header{
+    border-bottom: 1px solid $blue-dark;
+  }
   
+  .modal-footer {
+    border-top: 1px solid $blue-dark;
+  }
+
   .keys {
     font-size: 20px;
   }
   
   .snake-lvl{
-    font-size: 18px;
+    font-size: 14px;
     font-style: italic;
     text-align: center;
   }
 
   .snake-scores{
-    width: 100%;
+    font-size: 14px;
+    width: 50%;
     margin: auto;
   }
 }
