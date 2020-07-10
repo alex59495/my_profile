@@ -2,3 +2,17 @@
   background-color: $blue-dark;
   border: 0.5px solid white;
 }
+
+@media (min-width: 800px) {
+  .game-text {
+    width: 75%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .game-text {
+    width: 60%;
+    margin: auto;
+  }
+}

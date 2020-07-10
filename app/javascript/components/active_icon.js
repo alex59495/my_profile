@@ -7,13 +7,14 @@ const activeIcon = () => {
   const iconProjects = document.getElementById("icon-projects");
   const home = document.getElementById("home");
   const iconHome = document.getElementById("icon-home");
+  const about = document.getElementById("about-me");
 
   const observerGame = new IntersectionObserver(function(entries) {
     if(entries[0].isIntersecting === true) {
       iconGame.classList.add('active');
     } else {
       iconGame.classList.remove('active');
-    }}, { threshold: [0.5] });
+    }}, { threshold: [0.35] });
   observerGame.observe(game);
 
   const observerSkills = new IntersectionObserver(function(entries) {
@@ -37,7 +38,7 @@ const activeIcon = () => {
       iconHome.classList.add('active');
     } else {
       iconHome.classList.remove('active');
-    }}, { threshold: [0.5] });
+    }}, { threshold: [0.2] });
   observerHome.observe(home);
 }
 

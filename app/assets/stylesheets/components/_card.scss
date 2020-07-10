@@ -1,7 +1,4 @@
-@media (max-width: 575px) {
-  .card-project {
-    display: block;
-  }
+@media (max-width: 800px) {
   .card-project-body {
     width: 100%;
   }
@@ -15,15 +12,12 @@
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
   }
-  .flip-card {
-    width: 50%
-  }
 }
 
-@media (min-width: 575px) {
+@media (min-width: 800px) {
   .card-project {
     display: flex;
-    height: 40vh;
+    min-height: 40vh;
   }
   .card-project-body {
     width: 50%;
@@ -53,6 +47,8 @@
   }
   .card-project-body {
     .card-project-title {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
       padding: 4px;
       padding-left: 10px;
       font-size: 24px;
@@ -62,8 +58,13 @@
     .card-project-description {
       padding: 4px;
       padding-left: 10px;
-      font-style: italic;
+      padding-right: 10px;
       color: $blue-dark;
+      text-align: justify;
+    }
+    .description-skills {
+      font-size: 14px;
+      font-style: italic;
     }
   }
 }
@@ -76,7 +77,8 @@
 
 .flip-card {
   perspective: 1000px;
-  height: 16vh; /* Remove this if you don't want the 3D effect */
+  min-height: 20vh; /* Remove this if you don't want the 3D effect */
+  padding: 12px;
 }
 
 /* This container is needed to position the front and back side */
@@ -91,12 +93,18 @@
   border-radius: 4px;
 }
 
-.flip-card-top-background {
+.flip-card-band-i {
   position: absolute;
-  height: 20%;
-  width: 100%;
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%;
+  height: 100%;
+  width: 3%;
+  left: 13%;
+}
+
+.flip-card-band-ii {
+  position: absolute;
+  height: 100%;
+  width: 3%;
+  left: 7%;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */

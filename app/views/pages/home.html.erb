@@ -17,6 +17,16 @@
       </div>
     </div>
     <div class="container-profile">
+      <div class="about-me mb-5">
+        <h1 class="d-flex justify-content-center">
+          <p style="text-shadow: -2px 2px 2px rgb(106, 9, 125);">A</p>bout me
+        </h1>
+        <p class="about-me-text">Former Urban Engineer, I always have been attracted by IT and technologies in general. 
+        In 2019 when I was in <strong>Rio de Janeiro</strong>, I heard about <strong style="color: rgb(106, 9, 125);">Le Wagon</strong> by chance 
+        and I finally decided to do the part-time format between January and June 2020. 
+        Since then I'm working on my own projects still trying to learn new frameworks, languages etc..
+        <p class="about-me-end">I'm always open to face new challenges !</p>
+      </div>
       <div class="skills mb-5" id="skills">
         <!-- Button trigger modal -->
         <h1 class="d-flex justify-content-center">
@@ -35,9 +45,11 @@
         </div>
         <div class="row skills justify-content-center">
           <% @skills.each do |skill| %>
-            <div class="flip-card m-2 col-sm-3 col-md-2">
+            <div class="flip-card col-6 col-sm-4 col-md-3 col-lg-2">
               <div class= "flip-card-inner">
-                <div class="flip-card-top-background <%= skill.level %>">
+                <div class="flip-card-band-i <%= skill.level %>">
+                </div>
+                <div class="flip-card-band-ii <%= skill.level %>">
                 </div>
                 <div class="flip-card-front">
                   <svg height="50px" width="50px" viewBox="0 0 128 128">
@@ -63,7 +75,13 @@
                 <p class="m-0" style="text-shadow: -2px 2px 2px rgb(106, 9, 125);">S</p>orotitree
               </div>
               <div class="card-project-description">
-                Final project from Le Wagon which allow women to enter in contact to talk about tabu subjects they want
+                <p>Final project from Le Wagon which allow women to enter in contact to talk about tabu subjects they want.</p>
+                <div class="description-skills">
+                  <p class="mb-2">• Live chat w/ Action Cable</p>
+                  <p class="mb-2">• Complete Back-end to handle the app</p>
+                  <p class="mb-2">• Searching matching profiles through SQL requests</p>
+                  <p class="mb-2">• etc...</p>
+                </div>
               </div>
             </div>
             <div class="card-project-background d-flex justify-content-center align-items-end" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= image_path 'Sororitree.png' %>')">
@@ -78,7 +96,13 @@
                 <p class="m-0" style="text-shadow: -2px 2px 2px rgb(106, 9, 125);">S</p>earch 4 Class
               </div>
               <div class="card-project-description">
-                First project from Le Wagon. "AirBnb like" to connect teachers and students.
+                <p>First project from Le Wagon. "AirBnb like" to connect teachers and students.</p>
+                <div class="description-skills">
+                  <p class="mb-2">• Geolocalisation w/ MapBox API</p>
+                  <p class="mb-2">• MVC Pattern</p>
+                  <p class="mb-2">• Authentification & Authorization</p>
+                  <p class="mb-2">• etc...</p>
+                </div>
               </div>
             </div>
             <div class="card-project-background d-flex justify-content-center align-items-end" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= image_path 'Search-4-Class.png' %>')">
@@ -92,7 +116,9 @@
         <h1 class="d-flex justify-content-center">
           <p style="text-shadow: -2px 2px 2px rgb(106, 9, 125);">L</p>et's relax
         </h1>
-        <p class="align-self-start">If you don't want to search for another CV now, if you want to take a break or if you just want some entertainement here's a little game for you <i>(my actual best is <strong>72</strong>)</i></p>
+        <div class="game-text">
+          <p>If you don't want to look for another CV now, if you want to take a break or if you just want some entertainement here's a little game for you <i>(my actual best is <strong>72</strong>)</i></p>
+        </div>
         <button type="button" class="btn-blue-dark mb-3" data-toggle="modal" data-target="#ModalSnake">
           How to play
         </button>
