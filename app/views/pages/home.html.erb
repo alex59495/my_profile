@@ -119,10 +119,17 @@
         <div class="game-text">
           <p>If you don't want to look for another CV now, if you want to take a break or if you just want some entertainement here's a little game for you <i>(my actual best is <strong>72</strong>)</i></p>
         </div>
-        <button type="button" class="btn-blue-dark mb-3" data-toggle="modal" data-target="#ModalSnake">
-          How to play
-        </button>
-        <%= render 'shared/modal_snake' %>
+        <div class="game-phone">
+          <p>Unfortunately you can't play snake on a mobile device :'(</p>
+          <p>You can go on a larger screen to play !</p>          
+        </div>
+        <div class="game-pc">
+          <button type="button" class="btn-blue-dark mb-3" data-toggle="modal" data-target="#ModalSnake">
+            How to play
+          </button>
+          <%= render 'shared/modal_snake' %>
+        </div>
+        
         <div class="score d-flex">
           <div class="mr-2">
             Score :

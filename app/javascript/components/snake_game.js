@@ -22,8 +22,8 @@ const snakeGame = () => {
       maxCells: 4
     };
     let apple = {
-      x: 320,
-      y: 320
+      x: 288,
+      y: 288
     };
 
     // get random whole numbers in a specific range

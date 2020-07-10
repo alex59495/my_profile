@@ -1,7 +1,31 @@
-#gameCanvas {
-  background-color: $blue-dark;
-  border: 0.5px solid white;
+@media (max-width: 575px) {
+  #gameCanvas {
+    background-color: $blue-dark;
+    border: 0.5px solid white;
+    width: 300px;
+    height: 300px;
+  }
+  .game-phone {
+    color: red;
+    text-align: justify
+  }
+  .game-pc {
+    display: none;
+  }
 }
+
+@media (min-width: 575px) {
+  #gameCanvas {
+    background-color: $blue-dark;
+    border: 0.5px solid white;
+    width: 400px;
+    height: 400px;
+  }
+  .game-phone {
+    display: none;
+  }
+}
+
 
 @media (min-width: 800px) {
   .game-text {
@@ -14,5 +38,11 @@
   .game-text {
     width: 60%;
     margin: auto;
+  }
+}
+
+.game-text {
+  p {
+    text-align: justify;
   }
 }
