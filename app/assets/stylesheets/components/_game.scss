@@ -1,4 +1,4 @@
-@media (max-width: 575px) {
+@media (max-width: 1000px) {
   #gameCanvas {
     background-color: $blue-dark;
     border: 0.5px solid white;
@@ -14,7 +14,7 @@
   }
 }
 
-@media (min-width: 575px) {
+@media (min-width: 1000px) {
   #gameCanvas {
     background-color: $blue-dark;
     border: 0.5px solid white;

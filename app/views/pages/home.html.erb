@@ -18,8 +18,8 @@
     </div>
     <div class="container-profile">
       <div class="about-me mb-5">
-        <h1 class="d-flex justify-content-center">
-          <p style="text-shadow: -2px 2px 2px rgb(106, 9, 125);">A</p>bout me
+        <h1>
+          <span style="text-shadow: -2px 2px 2px rgb(106, 9, 125);">A</span><span>bout me</span>
         </h1>
         <p class="about-me-text">Former Urban Engineer, I always have been attracted by IT and technologies in general. 
         In 2019 when I was in <strong>Rio de Janeiro</strong>, I heard about <strong style="color: rgb(106, 9, 125);">Le Wagon</strong> by chance 
@@ -27,10 +27,11 @@
         Since then I'm working on my own projects still trying to learn new frameworks, languages etc..
         <p class="about-me-end">I'm always open to face new challenges !</p>
       </div>
+      
       <div class="skills mb-5" id="skills">
         <!-- Button trigger modal -->
-        <h1 class="d-flex justify-content-center">
-          <p style="text-shadow: -2px 2px 2px rgb(106, 9, 125);">S</p>kills & Tools
+        <h1>
+          <span style="text-shadow: -2px 2px 2px rgb(106, 9, 125);">S</span><span>kills & Tools</span>
         </h1>
         <div class="skills-notes d-flex justify-content-around my-3">
           <% @levels.each do |level| %>
@@ -66,8 +67,8 @@
       </div>
 
       <div class="projects pb-5" id="projects">
-        <h1 class="d-flex justify-content-center">
-        <p style="text-shadow: -2px 2px 2px rgb(106, 9, 125);">M</p>y lastest projects
+        <h1>
+          <span style="text-shadow: -2px 2px 2px rgb(106, 9, 125);">M</span><span>y lastest projects</span>
         </h1>
           <div class="card-project my-5">
             <div class="card-project-body">
@@ -112,42 +113,45 @@
             </div>
           </div>
       </div>
-      <div class="snake-game d-flex flex-column align-items-center" id="game">
-        <h1 class="d-flex justify-content-center">
-          <p style="text-shadow: -2px 2px 2px rgb(106, 9, 125);">L</p>et's relax
+
+      <div class="snake-game" id="game">
+        <h1>
+          <span style="text-shadow: -2px 2px 2px rgb(106, 9, 125);">L</span><span>et's relax</span>
         </h1>
-        <div class="game-text">
-          <p>If you don't want to look for another CV now, if you want to take a break or if you just want some entertainement here's a little game for you <i>(my actual best is <strong>72</strong>)</i></p>
-        </div>
-        <div class="game-phone">
-          <p>Unfortunately you can't play snake on a mobile device :'(</p>
-          <p>You can go on a larger screen to play !</p>          
-        </div>
-        <div class="game-pc">
-          <button type="button" class="btn-blue-dark mb-3" data-toggle="modal" data-target="#ModalSnake">
-            How to play
-          </button>
-          <%= render 'shared/modal_snake' %>
-        </div>
-        
-        <div class="score d-flex">
-          <div class="mr-2">
-            Score :
+        <div class="d-flex flex-column align-items-center">
+          <div class="game-text">
+            <p>If you don't want to look for another CV now, if you want to take a break or if you just want some entertainement here's a little game for you <i>(my actual best is <strong>72</strong>)</i></p>
           </div>
-          <div id="score">
-            0
+          <div class="game-phone">
+            <p>Unfortunately you can't play snake on a mobile device :'(</p>
+            <p>You can go on a larger screen to play !</p>          
           </div>
+          <div class="game-pc">
+            <button type="button" class="btn-blue-dark mb-3" data-toggle="modal" data-target="#ModalSnake">
+              How to play
+            </button>
+            <%= render 'shared/modal_snake' %>
+          </div>
+          
+          <div class="score d-flex">
+            <div class="mr-2">
+              Score :
+            </div>
+            <div id="score">
+              0
+            </div>
+          </div>
+          <div class="highscore d-flex">
+            <div class="mr-2">
+              Highscore :
+            </div>
+            <div id="highscore">
+              0
+            </div>
+          </div>
+          <canvas id="gameCanvas" width="400" height="400" class="mb-4">
+          </canvas>
         </div>
-        <div class="highscore d-flex">
-          <div class="mr-2">
-            Highscore :
-          </div>
-          <div id="highscore">
-            0
-          </div>
-        </div>
-        <canvas id="gameCanvas" width="400" height="400" class="mb-4">
-        </canvas>
       </div>
       <div class="contact d-flex flex-column align-items-center">
         <div class="mb-2" style="font-size: 22px;">
