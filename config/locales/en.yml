@@ -30,4 +30,9 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  pages:
+    home:
+      localization: "Currently in Rio de Janeiro"
+      about-me-text_html: "I've graduated as an Urban Engineer on 2016, but since before that, I have felt attracted to IT and technologies in general. So, in 2019, while living in <strong>Rio de Janeiro</strong>, I fortunately came across <strong style='color: rgb(106, 9, 125);'>Le Wagon</strong>'s methodology and decided to begin my professional qualification as a web development on a part-time course from January to June 2020. Since then, I've been working on projects of my own while I keep improving my abilities by learning new frameworks, languages and everything else that can make me better at what I do."
+      about-me-end: "I'm always open to face new challenges !"
+      game-text_html: "If you don't want to look for another CV right now, if you want to take a break or if you just want some entertainement here's a little game for you <i>(my actual best is <strong>72</strong>)</i>"

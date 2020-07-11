@@ -12,26 +12,23 @@
           FullStack Developper
         </div>
         <div class="banner-loc">
-          Currently in Rio de Janeiro
+          <%= t('.localization') %>
         </div>
       </div>
     </div>
     <div class="container-profile">
       <div class="about-me mb-5">
         <h1>
-          <span style="text-shadow: -2px 2px 2px rgb(106, 9, 125);">A</span><span>bout me</span>
+          About me
         </h1>
-        <p class="about-me-text">Former Urban Engineer, I always have been attracted by IT and technologies in general. 
-        In 2019 when I was in <strong>Rio de Janeiro</strong>, I heard about <strong style="color: rgb(106, 9, 125);">Le Wagon</strong> by chance 
-        and I finally decided to do the part-time format between January and June 2020. 
-        Since then I'm working on my own projects still trying to learn new frameworks, languages etc..
-        <p class="about-me-end">I'm always open to face new challenges !</p>
+        <p class="about-me-text"><%= t('.about-me-text_html') %></p>
+        <p class="about-me-end"><%= t('.about-me-end') %></p>
       </div>
       
       <div class="skills mb-5" id="skills">
         <!-- Button trigger modal -->
         <h1>
-          <span style="text-shadow: -2px 2px 2px rgb(106, 9, 125);">S</span><span>kills & Tools</span>
+          Skills & Tools
         </h1>
         <div class="skills-notes d-flex justify-content-around my-3">
           <% @levels.each do |level| %>
@@ -68,12 +65,12 @@
 
       <div class="projects pb-5" id="projects">
         <h1>
-          <span style="text-shadow: -2px 2px 2px rgb(106, 9, 125);">M</span><span>y lastest projects</span>
+          My latest projects
         </h1>
           <div class="card-project my-5">
             <div class="card-project-body">
               <div class="card-project-title d-flex justify-content-center">
-                <p class="m-0" style="text-shadow: -2px 2px 2px rgb(106, 9, 125);">S</p>orotitree
+                Sorotitree
               </div>
               <div class="card-project-description">
                 <p>Final project from Le Wagon which allow women to enter in contact to talk about tabu subjects they want.</p>
@@ -85,8 +82,8 @@
                 </div>
               </div>
             </div>
-            <div class="card-project-background d-flex justify-content-center align-items-end" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= image_path 'Sororitree.png' %>')">
-              <%= link_to "http://www.sororitree.org/", class:"without-decoration" do %>
+            <div class="card-project-background d-flex justify-content-center align-items-end" style="background-image: linear-gradient(rgba(250,250,250,0.3), rgba(250,250,250,0.3)), url('<%= image_path 'Sororitree.png' %>')">
+              <%= link_to "http://www.sororitree.org/", class:"without-decoration", target: '_blank' do %>
                 <i class="fas fa-eye icon-eye"></i>
               <% end %>
             </div>
@@ -94,7 +91,7 @@
           <div class="card-project">
             <div class="card-project-body">
               <div class="card-project-title d-flex justify-content-center">
-                <p class="m-0" style="text-shadow: -2px 2px 2px rgb(106, 9, 125);">S</p>earch 4 Class
+                Search 4 Class
               </div>
               <div class="card-project-description">
                 <p>First project from Le Wagon. "AirBnb like" to connect teachers and students.</p>
@@ -106,8 +103,8 @@
                 </div>
               </div>
             </div>
-            <div class="card-project-background d-flex justify-content-center align-items-end" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= image_path 'Search-4-Class.png' %>')">
-              <%= link_to "https://mmister-cocktail-alexis59.herokuapp.com/", class:"without-decoration" do %>
+            <div class="card-project-background d-flex justify-content-center align-items-end" style="background-image: linear-gradient(rgba(250,250,250,0.3), rgba(250,250,250,0.3)), url('<%= image_path 'Search-4-Class.png' %>')">
+              <%= link_to "https://mmister-cocktail-alexis59.herokuapp.com/", class:"without-decoration", target: '_blank' do %>
                 <i class="fas fa-eye icon-eye"></i>
               <% end %>
             </div>
@@ -116,11 +113,11 @@
 
       <div class="snake-game" id="game">
         <h1>
-          <span style="text-shadow: -2px 2px 2px rgb(106, 9, 125);">L</span><span>et's relax</span>
+          Let's relax
         </h1>
         <div class="d-flex flex-column align-items-center">
           <div class="game-text">
-            <p>If you don't want to look for another CV now, if you want to take a break or if you just want some entertainement here's a little game for you <i>(my actual best is <strong>72</strong>)</i></p>
+            <p><%= t('.game-text_html') %></p>
           </div>
           <div class="game-phone">
             <p>Unfortunately you can't play snake on a mobile device :'(</p>
