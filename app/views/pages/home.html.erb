@@ -18,7 +18,7 @@
           <% if locale == :en %>
             <% @languages.each do |language, sym| %>
               <%= link_to root_path(locale: sym), class: "without-decoration" do %>
-                <div class="mx-3 card-language">
+                <div class="mx-3 my-1 card-language">
                   <div class="icon-flag mr-2">
                     <%= image_tag "#{language}.jpg" %>
                   </div>
@@ -31,7 +31,7 @@
           <% elsif locale == :pt %>
             <% @languages.each do |language, sym| %>
               <%= link_to root_path(locale: sym), class: "without-decoration" do %>
-                <div class="mx-3 card-language">
+                <div class="mx-3 my-1 card-language">
                   <div class="icon-flag mr-2">
                     <%= image_tag "#{language}.jpg" %>
                   </div>
@@ -44,7 +44,7 @@
           <% else %>
             <% @languages.each do |language, sym| %>
               <%= link_to root_path(locale: sym), class: "without-decoration" do %>
-                <div class="mx-3 card-language">
+                <div class="mx-3 my-1 card-language">
                   <div class="icon-flag mr-2">
                     <%= image_tag "#{language}.jpg" %>
                   </div>

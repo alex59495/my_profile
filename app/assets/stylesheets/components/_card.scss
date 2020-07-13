@@ -153,8 +153,10 @@
 .card-language {
   display: flex;
   align-items: center;
+  justify-content: center;
   background: white;
   border-radius: 8px;
+  font-size: 14px;
   padding: 4px;
   border: solid 0.5px $blue-dark;
   color: $blue-dark;
