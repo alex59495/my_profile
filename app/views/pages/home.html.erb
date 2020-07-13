@@ -9,17 +9,59 @@
           <p style="text-shadow: -3px 3px 2px rgb(106, 9, 125);">A</p>lexis <p class="ml-4" style="text-shadow: -3px 3px 2px rgb(106, 9, 125);">L</p>enoir
         </div>
         <div class="banner-job">
-          FullStack Developper
+          <%= t('.banner-job') %>
         </div>
         <div class="banner-loc">
           <%= t('.localization') %>
+        </div>
+        <div class="banner-languages">
+          <% if locale == :en %>
+            <% @languages.each do |language, sym| %>
+              <%= link_to root_path(locale: sym), class: "without-decoration" do %>
+                <div class="mx-3 card-language">
+                  <div class="icon-flag mr-2">
+                    <%= image_tag "#{language}.jpg" %>
+                  </div>
+                  <div class="language-text">
+                    <%= "#{language} version" %>
+                  </div>
+                </div>
+              <% end %>
+            <% end %>
+          <% elsif locale == :pt %>
+            <% @languages.each do |language, sym| %>
+              <%= link_to root_path(locale: sym), class: "without-decoration" do %>
+                <div class="mx-3 card-language">
+                  <div class="icon-flag mr-2">
+                    <%= image_tag "#{language}.jpg" %>
+                  </div>
+                  <div class="language-text">
+                    <%= "Versão #{language}" %>
+                  </div>
+                </div>
+              <% end %>
+            <% end %>
+          <% else %>
+            <% @languages.each do |language, sym| %>
+              <%= link_to root_path(locale: sym), class: "without-decoration" do %>
+                <div class="mx-3 card-language">
+                  <div class="icon-flag mr-2">
+                    <%= image_tag "#{language}.jpg" %>
+                  </div>
+                  <div class="language-text">
+                    <%= "Version #{language}" %>
+                  </div>
+                </div>
+              <% end %>
+            <% end %>
+          <% end %>
         </div>
       </div>
     </div>
     <div class="container-profile">
       <div class="about-me mb-5">
         <h1>
-          About me
+          <%= t('.about-me') %>
         </h1>
         <p class="about-me-text"><%= t('.about-me-text_html') %></p>
         <p class="about-me-end"><%= t('.about-me-end') %></p>
@@ -28,7 +70,7 @@
       <div class="skills mb-5" id="skills">
         <!-- Button trigger modal -->
         <h1>
-          Skills & Tools
+          <%= t('.skills') %>
         </h1>
         <div class="skills-notes d-flex justify-content-around my-3">
           <% @levels.each do |level| %>
@@ -65,7 +107,7 @@
 
       <div class="projects pb-5" id="projects">
         <h1>
-          My latest projects
+          <%= t('.latest-projects') %>
         </h1>
           <div class="card-project my-5">
             <div class="card-project-body">
@@ -73,12 +115,12 @@
                 Sorotitree
               </div>
               <div class="card-project-description">
-                <p>Final project from Le Wagon which allow women to enter in contact to talk about tabu subjects they want.</p>
+                <p><%= t('.sororitree-description') %></p>
                 <div class="description-skills">
-                  <p class="mb-2">• Live chat w/ Action Cable</p>
-                  <p class="mb-2">• Complete Back-end to handle the app</p>
-                  <p class="mb-2">• Searching matching profiles through SQL requests</p>
-                  <p class="mb-2">• etc...</p>
+                  <p class="mb-2"><i class="fa fa-check mr-2" aria-hidden="true"></i><%= t('.sororitree-skill-1') %></p>
+                  <p class="mb-2"><i class="fa fa-check mr-2" aria-hidden="true"></i> <%= t('.sororitree-skill-2') %></p>
+                  <p class="mb-2"><i class="fa fa-check mr-2" aria-hidden="true"></i><%= t('.sororitree-skill-3') %></p>
+                  <p class="mb-2"><i class="fa fa-check mr-2" aria-hidden="true"></i>etc...</p>
                 </div>
               </div>
             </div>
@@ -94,12 +136,12 @@
                 Search 4 Class
               </div>
               <div class="card-project-description">
-                <p>First project from Le Wagon. "AirBnb like" to connect teachers and students.</p>
+                <p><%= t('.search-4-class-description') %></p>
                 <div class="description-skills">
-                  <p class="mb-2">• Geolocalisation w/ MapBox API</p>
-                  <p class="mb-2">• MVC Pattern</p>
-                  <p class="mb-2">• Authentification & Authorization</p>
-                  <p class="mb-2">• etc...</p>
+                  <p class="mb-2"><i class="fa fa-check mr-2" aria-hidden="true"></i><%= t('.search4class-skill-1') %></p>
+                  <p class="mb-2"><i class="fa fa-check mr-2" aria-hidden="true"></i><%= t('.search4class-skill-2') %></p>
+                  <p class="mb-2"><i class="fa fa-check mr-2" aria-hidden="true"></i><%= t('.search4class-skill-3') %></p>
+                  <p class="mb-2"><i class="fa fa-check mr-2" aria-hidden="true"></i>etc...</p>
                 </div>
               </div>
             </div>
@@ -113,19 +155,19 @@
 
       <div class="snake-game" id="game">
         <h1>
-          Let's relax
+          <%= t('.game') %>
         </h1>
         <div class="d-flex flex-column align-items-center">
           <div class="game-text">
-            <p><%= t('.game-text_html') %></p>
+            <p><%= t('.game-text') %></p>
+            <p class="text-center"><%= t('.game-highscore_html') %></p>
           </div>
           <div class="game-phone">
-            <p>Unfortunately you can't play snake on a mobile device :'(</p>
-            <p>You can go on a larger screen to play !</p>          
+            <%= t('.game-not_html') %>        
           </div>
           <div class="game-pc">
             <button type="button" class="btn-blue-dark mb-3" data-toggle="modal" data-target="#ModalSnake">
-              How to play
+              <%= t('.game-rules') %>
             </button>
             <%= render 'shared/modal_snake' %>
           </div>
@@ -152,7 +194,7 @@
       </div>
       <div class="contact d-flex flex-column align-items-center">
         <div class="mb-2" style="font-size: 22px;">
-          Feel free to contact me ;)
+          <%= t('.contact') %>
         </div>
         <div class="d-flex">
           <a href="https://www.linkedin.com/in/alexis-lenoir-857496ab/" class="icon-social-large mx-3">
@@ -169,6 +211,3 @@
     </div>
   </div>
 </div>
-
-
-

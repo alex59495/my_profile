@@ -149,3 +149,17 @@
 .basic {
   background-color: $basic;
 }
+
+.card-language {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 8px;
+  padding: 4px;
+  border: solid 0.5px $blue-dark;
+  color: $blue-dark;
+  &:hover {
+    box-shadow:  0 7px 30px 0px rgba(150,170,180,0.5);
+    color: $purple;
+  }
+}

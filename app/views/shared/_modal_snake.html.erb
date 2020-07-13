@@ -10,49 +10,49 @@
       </div>
       <div class="modal-body">
         <div class="keys">
-          <p>W : Up</p>
-          <p>S : Down</p>
-          <p>A : Left</p>
-          <p>D : Right</p>
+          <p>W : <%= t('.game-up') %></p>
+          <p>S : <%= t('.game-down') %><</p>
+          <p>A : <%= t('.game-left') %><</p>
+          <p>D : <%= t('.game-right') %><</p>
         </div>
         <div class="snake-lvl">
-          Try to reach those score to see the snake's color changing
+          <%= t('.game-rules-text') %>
         </div>
         <div class="snake-scores">
           <div class="lvl-unbelievable d-flex align-items-center my-2">
             <div class="color-impossible mr-2"></div>
             <div class="text-good">
-              Is it possible ? (score ≥ 85)
+              <%= t('.game-color-1') %>
             </div>
           </div>
           <div class="lvl-unbelievable d-flex align-items-center my-2">
             <div class="color-unbelievable mr-2"></div>
             <div class="text-good">
-              Unbelievable (score ≥ 65)
+              <%= t('.game-color-2') %>
             </div>
           </div>
           <div class="lvl-impressive d-flex align-items-center my-2">
             <div class="color-impressive mr-2"></div>
             <div class="text-good">
-              Impressive (score ≥ 45)
+              <%= t('.game-color-3') %>
             </div>
           </div>
           <div class="lvl-good d-flex align-items-center my-2">
             <div class="color-good-game mr-2"></div>
             <div class="text-good">
-              Good (score ≥ 30)
+              <%= t('.game-color-4') %>
             </div>
           </div>
           <div class="lvl-medium d-flex align-items-center my-2">
             <div class="color-medium-game mr-2"></div>
             <div class="text-medium">
-              Medium (score ≥ 15)
+              <%= t('.game-color-5') %>
             </div>
           </div>
           <div class="lvl-basic d-flex align-items-center my-2">
             <div class="color-basic-game mr-2"></div>
             <div class="text-basic">
-              Basic (score < 15)
+              <%= t('.game-color-6') %>
             </div>
           </div>
         </div>

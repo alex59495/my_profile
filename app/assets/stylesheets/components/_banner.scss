@@ -22,7 +22,6 @@
   background-size: cover;
   background-blend-mode: luminosity;
   height: 100vh;
-  position: relative;
   z-index: -1;
     
   .banner-name {
@@ -45,5 +44,15 @@
     width: 100%;
     text-align: center;
     top: 70vh;
+  }
+
+  .banner-languages {
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    top: 85vh;
   }
 }
