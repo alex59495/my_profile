@@ -49,7 +49,7 @@ en:
       search4class-skill-3: "Authentification & Authorization"
       game: "Let's relax"
       game-not_html: "<p>Unfortunately you can't play snake on a mobile device :'(</p>
-                      <p>You can go on a larger screen to play !</p>"
+                      <p>You can go on computer to play !</p>"
       game-text: "If you don't want to look for another CV right now, if you want to take a break or if you just want some entertainement here's a little game for you."
       game-highscore_html: "My actual best is <strong>72</strong>, try to beat me ;)"
       game-rules: "How to play"
