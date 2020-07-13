@@ -10,12 +10,12 @@ class PagesController < ApplicationController
       }
     elsif locale == :fr
       @languages = @languages = {
-        Anglaise: :en,
+        Anglaise: nil,
         Portugaise: :pt
       }
     else
       @languages = {
-        Inglês: :en,
+        Inglês: nil,
         Francês: :fr
       }
     end
