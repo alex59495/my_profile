@@ -54,7 +54,7 @@ fr:
       game-not_html: "<p>Malheureusement tu ne peux pas jouer à snake sur un appareil mobile :'(</p>
                       <p>Tu peux tester sur un ordinateur pour jouer !</p>"
       game-text: "Si tu ne souhaites pas regarder d'autres CV pour le moment, si tu veux faire une pause ou si tu veux tout simplement te détendre un peu, voici un jeu pour toi."
-      game-highscore_html: "Mon record actuel est <strong>72</strong>, essaye de faire mieux ;)"
+      game-highscore_html: "Mon record actuel est <strong>%{score}</strong>, essaye de faire mieux ;)"
       game-rules: "Comment jouer"
       contact: "N'hésite pas à me contacter ;)"
   shared:

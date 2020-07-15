@@ -19,5 +19,6 @@ class PagesController < ApplicationController
         Francês: :fr
       }
     end
+    @score = 95
   end
 end

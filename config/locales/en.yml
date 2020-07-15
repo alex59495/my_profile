@@ -54,7 +54,7 @@ en:
       game-not_html: "<p>Unfortunately you can't play snake on a mobile device :'(</p>
                       <p>You can go on computer to play !</p>"
       game-text: "If you don't want to look for another CV right now, if you want to take a break or if you just want some entertainement here's a little game for you."
-      game-highscore_html: "My actual best is <strong>72</strong>, try to beat me ;)"
+      game-highscore_html: "My actual best is <strong>%{score}</strong>, try to beat me ;)"
       game-rules: "How to play"
       contact: "Feel free to contact me ;)"
   shared:

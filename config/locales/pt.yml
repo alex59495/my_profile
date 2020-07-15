@@ -54,7 +54,7 @@ pt:
       game-not_html: "<p>Infelizmente você não pode jogar snake num aparelho movél :'(</p>
                       <p>Você ir num computador para jogar !</p>"
       game-text: "Se você não está afim de procurar outros currículos agora, quer descansar um pouco ou apenas se distrair, aqui vai um jogo para você."
-      game-highscore_html: "Por enquanto meu máximo é <strong>72</strong>, tente fazer melhor ;)"
+      game-highscore_html: "Por enquanto meu máximo é <strong>%{score}</strong>, tente fazer melhor ;)"
       game-rules: "Como jogar"
       contact: "Pode entrar em contato comigo ;)"
   shared:
