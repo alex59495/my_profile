@@ -35,7 +35,7 @@ en:
       banner-job: "FullStack Developper"
       localization: "Currently in Rio de Janeiro"
       about-me: "About me"
-      about-me-text_html: "I've graduated as an Urban Engineer on 2016, but since before that, I have felt attracted to IT and technologies in general. So, in 2019, while living in <strong>Rio de Janeiro</strong>, I fortunately came across <strong style='color: rgb(106, 9, 125);'>Le Wagon</strong>'s methodology and decided to begin my professional qualification as a web development on a part-time course from January to June 2020. Since then, I've been working on projects of my own while I keep improving my abilities by learning new frameworks and languages."
+      about-me-text_html: "I've graduated as an Urban Engineer on 2016, but since before that, I have felt attracted to IT and technologies in general. So, in 2019, while living in <strong>Rio de Janeiro</strong>, I fortunately came across <strong style='color: rgb(106, 9, 125);'>Le Wagon</strong>'s methodology and decided to begin my professional qualification as a web development on a part-time course from January to June 2020. Since then, I've been working on projects of my own while I keep improving my abilities by learning languages and discovering new frameworks."
       about-me-end: "I'm always open to face new challenges !"
       skills: "Skills & Tools"
       skill-good: "Good"
@@ -56,6 +56,9 @@ en:
       game-text: "If you don't want to look for another CV right now, if you want to take a break or if you just want some entertainement here's a little game for you."
       game-highscore_html: "My actual best is <strong>72</strong>, try to beat me ;)"
       game-rules: "How to play"
+      contact: "Feel free to contact me ;)"
+  shared:
+    modal_snake:
       game-rules-text: "Try to reach those score to see the snake's color changing"
       game-color-1: "Is it possible !? (score ≥ 85)"
       game-color-2: "Unbelievable (score ≥ 65)"
@@ -67,4 +70,3 @@ en:
       game-down: "Down"
       game-left: "Left"
       game-right: "Right"
-      contact: "Feel free to contact me ;)"

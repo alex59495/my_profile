@@ -40,7 +40,7 @@ const particleJS = () => {
         }
       },
       "size": {
-        "value": 10,
+        "value": 5,
         "random": true,
         "anim": {
           "enable": false,

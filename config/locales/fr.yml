@@ -35,7 +35,7 @@ fr:
       banner-job: "Développeur FullStack "
       localization: "Actuellement à Rio de Janeiro"
       about-me: "À propos de moi"
-      about-me-text_html: "Ingénieur en systèmes urbains depuis 2016, j'ai toujours été attiré par l'informatique et les technologies en général. En 2019, alors que je vivais à <strong>Rio de Janeiro</strong>, j'ai découvert par hasard <strong style='color : rgb(106, 9, 125);'>Le Wagon</strong> et, après avoir assisté à différents événement qu'ils organisaient, je me suis lancé et j'ai débuté la formation de développeur web sous le format part-time entre janvier et juin 2020. Depuis, je travaille sur des projets personnels tout en continuant de développer mes connaissances dans ce domaine en apprenant de nouveaux langages et frameworks."
+      about-me-text_html: "Ingénieur en systèmes urbains depuis 2016, j'ai toujours été attiré par l'informatique et les nouvelles technologies en général. En 2019, alors que je vivais à <strong>Rio de Janeiro</strong>, j'ai découvert par hasard <strong style='color : rgb(106, 9, 125);'>Le Wagon</strong> et, après avoir assisté à différents événements qu'ils organisaient, je me suis lancé et j'ai débuté la formation de développeur web sous le format part-time entre janvier et juin 2020. Depuis, je travaille sur des projets personnels tout en continuant de développer mes connaissances dans ce domaine en apprenant de nouveaux langages et en découvrant de nouveaux frameworks."
       about-me-end: "Je suis toujours prêt à relever de nouveaux défis !"
       skills: "Compétences & outils"
       skill-good: "Bon"
@@ -56,9 +56,12 @@ fr:
       game-text: "Si tu ne souhaites pas regarder d'autres CV pour le moment, si tu veux faire une pause ou si tu veux tout simplement te détendre un peu, voici un jeu pour toi."
       game-highscore_html: "Mon record actuel est <strong>72</strong>, essaye de faire mieux ;)"
       game-rules: "Comment jouer"
+      contact: "N'hésite pas à me contacter ;)"
+  shared:
+    modal_snake:
       game-rules-text: "Essaye d'atteindre ces scores pour voir la couleur du serpent changer"
       game-color-1: "C'est possible !? (score ≥ 85)"
-      game-color-2: "Incroybale (score ≥ 65)"
+      game-color-2: "Incroyable (score ≥ 65)"
       game-color-3: "Impressionant (score ≥ 45)"
       game-color-4: "Bien (score ≥ 30)"
       game-color-5: "Medium (score ≥ 15)"
@@ -67,4 +70,3 @@ fr:
       game-down: "Bas"
       game-left: "Gauche"
       game-right: "Droite"
-      contact: "N'hésite pas à me contacter ;)"
