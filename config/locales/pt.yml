@@ -35,7 +35,7 @@ pt:
       banner-job: "Desenvolvedor FullStack "
       localization: "Atualmente no Rio de Janeiro"
       about-me: "Sobre mim"
-      about-me-text_html: "Como engenheiro de sistemas urbanos desde 2016, sempre me senti atraído por computadores e tecnologia em geral. Em 2019, enquanto vivia no <strong>Rio de Janeiro</strong>, descobri por acaso <strong='color: rgb(106, 9, 125); '>Le Wagon</strong> e, depois de participar de diferentes eventos que estavam organizando, me inscrevi e fiz o bootcamp de desenvolvedor web entre janeiro e junho de 2020. Desde então, tenho trabalhado em projetos pessoais enquanto continuo a desenvolver meus conhecimentos nessa área, aprendendo novas linguagem e descobrindo novos frameworks."      
+      about-me-text_html: "Como engenheiro de sistemas urbanos desde 2016, sempre me senti atraído por computadores e tecnologia em geral. Em 2019, enquanto vivia no <strong>Rio de Janeiro</strong>, descobri por acaso <strong style='color : rgb(106, 9, 125);'>Le Wagon</strong> e, depois de participar de diferentes eventos que estavam organizando, me inscrevi e fiz o bootcamp de desenvolvedor web entre janeiro e junho de 2020. Desde então, tenho trabalhado em projetos pessoais enquanto continuo a desenvolver meus conhecimentos nessa área, aprendendo novas linguagem e descobrindo novos frameworks."      
       about-me-end: "Sempre aceito novos desafios !"
       skills: "Compêtencias & ferramentas"
       skill-good: "Bom"
