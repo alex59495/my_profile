@@ -50,6 +50,10 @@ fr:
       search4class-skill-1: "Géolocalisation avec l'API MapBox"
       search4class-skill-2: "Motif MVC"
       search4class-skill-3: "Authentification & Authorisation"
+      traits-union-description: "Site vitrine pour le collectif Traits-d'Union à Rio de Janeiro"
+      traits-union-skill-1: "Création de site avec Wordpress"
+      traits-union-skill-2: "Implémentation d'Ajax en PHP"
+      traits-union-skill-3: "Ajustements front-end et back-end en fonction de la demande client"
       game: "Un peu de détente"
       game-not_html: "<p>Malheureusement tu ne peux pas jouer à snake sur un appareil mobile :'(</p>
                       <p>Tu peux tester sur un ordinateur pour jouer !</p>"

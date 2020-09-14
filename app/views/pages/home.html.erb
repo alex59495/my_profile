@@ -121,6 +121,26 @@
         <h1>
           <%= t('.latest-projects') %>
         </h1>
+        <%= link_to "http://www.traits-dunion.com.br", class:"without-decoration", target: '_blank' do %>
+          <div class="card-project">
+            <div class="card-project-body">
+              <div class="card-project-title d-flex justify-content-center">
+                Traits d'Union
+              </div>
+              <div class="card-project-description">
+                <p><%= t('.traits-union-description') %></p>
+                <div class="description-skills">
+                  <p class="mb-2"><i class="fa fa-check mr-2" aria-hidden="true"></i><%= t('.traits-union-skill-1') %></p>
+                  <p class="mb-2"><i class="fa fa-check mr-2" aria-hidden="true"></i><%= t('.traits-union-skill-2') %></p>
+                  <p class="mb-2"><i class="fa fa-check mr-2" aria-hidden="true"></i><%= t('.traits-union-skill-3') %></p>
+                  <p class="mb-2"><i class="fa fa-check mr-2" aria-hidden="true"></i>etc...</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-project-background d-flex justify-content-center align-items-end" style="background-image: linear-gradient(rgba(250,250,250,0.3), rgba(250,250,250,0.3))')">
+            </div>
+          </div>
+        <% end %>
         <%= link_to "http://www.sororitree.org/", class:"without-decoration", target: '_blank' do %>
           <div class="card-project my-5">
             <div class="card-project-body">
