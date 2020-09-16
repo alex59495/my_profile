@@ -54,6 +54,10 @@ fr:
       traits-union-skill-1: "Création de site avec Wordpress"
       traits-union-skill-2: "Implémentation d'Ajax en PHP"
       traits-union-skill-3: "Ajustements front-end et back-end en fonction de la demande client"
+      chomage-vi-description: "Création d'une plateforme permettant de créer des dossiers de demande de réouverture des droits aux chômage pour les personnes revant de V.I (Volontariat International)"
+      chomage-vi-skill-1: "Logique Back-end pour le calcul des allocations autorisées"
+      chomage-vi-skill-2: "Gem wicked-pdf pour l'export de document PDF"
+      chomage-vi-skill-3: "Formulaires avec AJAX pour la gestions des erreurs"
       game: "Un peu de détente"
       game-not_html: "<p>Malheureusement tu ne peux pas jouer à snake sur un appareil mobile :'(</p>
                       <p>Tu peux tester sur un ordinateur pour jouer !</p>"
