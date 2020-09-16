@@ -24,6 +24,9 @@ gem 'jbuilder', '~> 2.7'
 # Traduciton gem
 gem 'i18n'
 
+# Prevent app from sleeping
+gem 'newrelic_rpm'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
