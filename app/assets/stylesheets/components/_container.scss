@@ -23,3 +23,10 @@
     padding-left: 90px;
   }
 }
+
+@media(min-width: 990px) {
+  .container-projects{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
