@@ -95,25 +95,27 @@
             </div>
           </div>
         </div>
-        <div class="row skills justify-content-center">
-          <% Skill::SKILLS.each do |skill| %>
-            <div class="flip-card col-6 col-sm-4 col-md-3 col-lg-2">
-              <div class= "flip-card-inner">
-                <div class="flip-card-band-i <%= skill[:level] %>">
+        <div data-aos="fade-up">
+          <div class="row skills justify-content-center">
+            <% Skill::SKILLS.each do |skill| %>
+              <div class="flip-card col-6 col-sm-4 col-md-3 col-lg-2">
+                <div class= "flip-card-inner">
+                  <div class="flip-card-band-i <%= skill[:level] %>">
+                  </div>
+                  <div class="flip-card-band-ii <%= skill[:level] %>">
+                  </div>
+                  <div class="flip-card-front">
+                    <svg height="50px" width="50px" viewBox="0 0 128 128">
+                      <%= skill[:svg_path].html_safe %>
+                    </svg>
+                  </div>
+                  <div class="flip-card-back">
+                    <%= skill[:title] %>
+                  </div>
                 </div>
-                <div class="flip-card-band-ii <%= skill[:level] %>">
-                </div>
-                <div class="flip-card-front">
-                  <svg height="50px" width="50px" viewBox="0 0 128 128">
-                    <%= skill[:svg_path].html_safe %>
-                  </svg>
-                </div>
-                <div class="flip-card-back">
-                  <%= skill[:title] %>
-                </div>
-              </div>
-            </div>            
-          <% end %>
+              </div>            
+            <% end %>
+          </div>
         </div>
       </div>
 

@@ -28,10 +28,12 @@ import "bootstrap";
 import { snakeGame } from '../components/snake_game';
 import { particleJS } from '../components/particles';
 import { activeIcon } from '../components/active_icon';
+import Aos from '../components/aos'
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   snakeGame();
   particleJS();
   activeIcon();
+  Aos();
 });
