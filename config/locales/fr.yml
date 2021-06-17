@@ -71,6 +71,9 @@ fr:
       ppsps-skill-2: "Création d'une base de données modifiables par les entreprises"
       ppsps-skill-3: "Features de Front avec React JS"
       github-infos: "Mes stats github"
+      github-commits: "Nombre de commits"
+      github-pr: "Nombre Pull Requests"
+      github-repo: "Nombre de repositories"
       game: "Un peu de détente"
       game-not_html: "<p>Malheureusement tu ne peux pas jouer à snake sur un appareil mobile :'(</p>
                       <p>Tu peux tester sur un ordinateur pour jouer !</p>"

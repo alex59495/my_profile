@@ -61,7 +61,7 @@ en:
       themis-description: "Création of a showcase site for Themis Production"
       themis-skill-1: "Front-End with Vue JS"
       themis-skill-2: "Hosting through Netlify"
-      themis-skill-3: "Implmentation of EmailJS to send mails through the site"
+      themis-skill-3: "Implementation of EmailJS to send mails through the site"
       resonances-description: "Web plateform to stimulate criativity and collaboration for the companies"
       resonances-skill-1: "Creation of collaborative mindmaps with React JS and Action Cable"
       resonances-skill-2: "Back-end's features as a 'social network' (like, comment, notif etc...)"
@@ -71,6 +71,9 @@ en:
       ppsps-skill-2: "Creation of an adaptable database for the companies"
       ppsps-skill-3: "Front features with React JS"
       github-infos: "My github stats"
+      github-commits: "Number of commits"
+      github-pr: "Number of Pull Requests"
+      github-repo: "Number of repositories"
       game: "Let's relax"
       game-not_html: "<p>Unfortunately you can't play snake on a mobile device :'(</p>
                       <p>You can go on computer to play !</p>"

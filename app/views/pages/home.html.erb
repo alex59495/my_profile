@@ -146,8 +146,22 @@
       <h2>
         <%= t('.github-infos') %>
       </h2>
-      <div class="container-github mb-5 d-flex justify-content-center">
+      <div class="container-github mb-3 d-flex justify-content-center">
         <img src="https://camo.githubusercontent.com/4a0b93d2b029873a28e465691da65be5b9feb16d5ffd5a1b15d062e2566ac04a/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d616c657835393439352673686f775f69636f6e733d74727565267468656d653d7261646963616c" alt="Github">
+      </div>
+      <div class="row mb-4">
+        <div class='col-md-4 text-center'>
+          <h5><%= t('.github-commits') %></h5>
+          <p id='numCommits' class='count'>N/A</p>
+        </div>
+        <div class='col-md-4 text-center'>
+          <h5><%= t('.github-pr') %></h5>
+          <p id='numPR' class='count'>N/A</p>
+        </div>
+        <div class='col-md-4 text-center'>
+          <h5><%= t('.github-repo') %></h5>
+          <p id='numRepo' class='count'>N/A</p>
+        </div>
       </div>
 
       <div class="snake-game" id="game">
