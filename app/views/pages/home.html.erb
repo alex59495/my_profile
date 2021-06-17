@@ -95,27 +95,25 @@
             </div>
           </div>
         </div>
-        <div data-aos="fade-up">
-          <div class="row skills justify-content-center">
-            <% Skill::SKILLS.each do |skill| %>
-              <div class="flip-card col-6 col-sm-4 col-md-3 col-lg-2">
-                <div class= "flip-card-inner">
-                  <div class="flip-card-band-i <%= skill[:level] %>">
-                  </div>
-                  <div class="flip-card-band-ii <%= skill[:level] %>">
-                  </div>
-                  <div class="flip-card-front">
-                    <svg height="50px" width="50px" viewBox="0 0 128 128">
-                      <%= skill[:svg_path].html_safe %>
-                    </svg>
-                  </div>
-                  <div class="flip-card-back">
-                    <%= skill[:title] %>
-                  </div>
+        <div class="row skills justify-content-center">
+          <% Skill::SKILLS.each do |skill| %>
+            <div class="flip-card col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class= "flip-card-inner">
+                <div class="flip-card-band-i <%= skill[:level] %>">
                 </div>
-              </div>            
-            <% end %>
-          </div>
+                <div class="flip-card-band-ii <%= skill[:level] %>">
+                </div>
+                <div class="flip-card-front">
+                  <svg height="50px" width="50px" viewBox="0 0 128 128">
+                    <%= skill[:svg_path].html_safe %>
+                  </svg>
+                </div>
+                <div class="flip-card-back">
+                  <%= skill[:title] %>
+                </div>
+              </div>
+            </div>            
+          <% end %>
         </div>
       </div>
 
@@ -143,6 +141,13 @@
             </div>
           <% end %>
         <% end %>
+      </div>
+
+      <h2>
+        <%= t('.github-infos') %>
+      </h2>
+      <div class="container-github mb-5 d-flex justify-content-center">
+        <img src="https://camo.githubusercontent.com/4a0b93d2b029873a28e465691da65be5b9feb16d5ffd5a1b15d062e2566ac04a/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d616c657835393439352673686f775f69636f6e733d74727565267468656d653d7261646963616c" alt="Github">
       </div>
 
       <div class="snake-game" id="game">

@@ -1,5 +1,25 @@
 class Project < ApplicationRecord
   PROJECTS = [{
+    title: "Resonances",
+    url: "https://www.resonances.group/",
+    img: "resonances.png",
+    description: '.resonances-description',
+    descr_skill: '.resonances'
+  },{
+    title: "Themis Production",
+    url: "https://monochrome-lucas.netlify.app/",
+    img: "themis.png",
+    description: '.themis-description',
+    descr_skill: '.themis'
+  },
+  {
+    title: "Obras - Création de PPSPS",
+    url: "https://ppsps-project.herokuapp.com/",
+    img: "ppsps.png",
+    description: '.ppsps-description',
+    descr_skill: '.ppsps'
+  },
+  {
     title: "Gratte ton chômage",
     url: "http://www.grattetonchomage.fr",
     img: "Chomage-VI.png",
