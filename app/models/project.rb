@@ -6,6 +6,12 @@ class Project < ApplicationRecord
     description: '.resonances-description',
     descr_skill: '.resonances'
   },{
+    title: "2Mão Point",
+    url: "https://segunda-mao-carrefour.herokuapp.com/",
+    img: "2mao-point.png",
+    description: '.2mao-description',
+    descr_skill: '.2mao'
+  },{
     title: "Themis Production",
     url: "https://monochrome-lucas.netlify.app/",
     img: "themis.png",
