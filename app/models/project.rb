@@ -1,5 +1,12 @@
 class Project < ApplicationRecord
   PROJECTS = [{
+    title: "Loosamax",
+    url: "https://loosamax59.herokuapp.com/",
+    img: "Loosamax.png",
+    description: '.loosamax-description',
+    descr_skill: '.loosamax'
+  },
+    {
     title: "Resonances",
     url: "https://www.resonances.group/",
     img: "resonances.png",
@@ -27,7 +34,7 @@ class Project < ApplicationRecord
   },
   {
     title: "Gratte ton chômage",
-    url: "http://www.grattetonchomage.fr",
+    url: "https://chomage-vi.herokuapp.com/",
     img: "Chomage-VI.png",
     description: '.chomage-vi-description',
     descr_skill: '.chomage-vi'
