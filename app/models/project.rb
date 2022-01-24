@@ -20,7 +20,7 @@ class Project < ApplicationRecord
     descr_skill: '.2mao'
   },{
     title: "Themis Production",
-    url: "https://monochrome-lucas.netlify.app/",
+    url: "https://themis-production.netlify.app/",
     img: "themis.png",
     description: '.themis-description',
     descr_skill: '.themis'
