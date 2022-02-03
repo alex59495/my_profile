@@ -39,9 +39,9 @@ en:
       about-me-end: "I'm always open to face new challenges !"
       professional-experience: "Professional experience"
       sightcall-period: 'February 2022 - Actual'
-      sightcall-description: '<li>FullStack Developper at Sightcall .....</li>'
+      sightcall-description: '<li>FullStack Developper at <b>Sightcall</b> .....</li>'
       freelance-period: 'January 2021 - February 2022'
-      freelance-description: '<li>FullStack Developper freelance working on several professional and personal projects (RoR, React, NodeJS etc..).</li>
+      freelance-description: '<li>FullStack Developper <b>freelance</b> working on several professional and personal projects (RoR, React, NodeJS etc..).</li>
                               <li>Teacher-Assistant at Le Wagon.</li>'
       skills: "Skills & Tools"
       skill-good: "Good"

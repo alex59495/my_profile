@@ -126,3 +126,17 @@
     border-radius: 4px;
   }
 }
+
+.icon-position {
+  position: absolute;
+  width: 100%;
+}
+
+.icon-profile {
+  height: 100px;
+  top: 37vh;
+  border-radius: 50%;
+  img {
+    border-radius: 50%;
+  }
+}

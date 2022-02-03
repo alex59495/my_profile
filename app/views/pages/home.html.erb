@@ -74,7 +74,7 @@
         <% Experience::EXPERIENCES.each do |exp| %>
           <div class="experience mb-4">
             <div class="mb-2 font-weight-bold"><%= t(exp[:period]) %></div>
-            <%= image_tag(exp[:image]) if exp[:image] %>
+            <%= image_tag(exp[:image], width: 200, height: 200, class: 'p-4') if exp[:image] %>
             <div class='block-with-margin'>
               <%= sanitize t(exp[:description]) %>
             </div>
@@ -131,7 +131,6 @@
           <% end %>
         </div>
       </div>
-
       <h2>
         <%= t('.latest-projects') %>
       </h2>
@@ -157,7 +156,6 @@
           <% end %>
         <% end %>
       </div>
-
       <h2>
         <%= t('.github-infos') %>
       </h2>

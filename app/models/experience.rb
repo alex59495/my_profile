@@ -6,6 +6,7 @@ class Experience < ApplicationRecord
   },
   {
     period: '.freelance-period',
-    description: '.freelance-description'
+    description: '.freelance-description',
+    image: 'freelance.png'
   }]
 end
