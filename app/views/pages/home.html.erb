@@ -66,6 +66,21 @@
         <p class="about-me-text"><%= t('.about-me-text_html') %></p>
         <p class="about-me-end"><%= t('.about-me-end') %></p>
       </div>
+
+      <div class="professional-experience text-center mb-5">
+        <h2>
+          <%= t('.professional-experience') %>
+        </h2>
+        <% Experience::EXPERIENCES.each do |exp| %>
+          <div class="experience mb-4">
+            <div class="mb-2 font-weight-bold"><%= t(exp[:period]) %></div>
+            <%= image_tag(exp[:image]) if exp[:image] %>
+            <div class='block-with-margin'>
+              <%= sanitize t(exp[:description]) %>
+            </div>
+          </div>
+        <% end %>
+      </div>
       
       <div class="skills mb-5" id="skills">
         <!-- Button trigger modal -->

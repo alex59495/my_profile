@@ -37,6 +37,12 @@ pt:
       about-me: "Sobre mim"
       about-me-text_html: "Como engenheiro de sistemas urbanos desde 2016, sempre me senti atraído por computadores e tecnologia em geral. Em 2019, enquanto vivia no <strong>Rio de Janeiro</strong>, descobri por acaso <strong style='color : rgb(106, 9, 125);'>Le Wagon</strong> e, depois de participar de diferentes eventos que estavam organizando, me inscrevi e fiz o bootcamp de desenvolvedor web entre janeiro e junho de 2020. Desde então, tenho trabalhado em projetos freelance e pessoais enquanto continuo a desenvolver meus conhecimentos nessa área, aprendendo novas linguagem e descobrindo novos frameworks."      
       about-me-end: "Sempre aceito novos desafios !"
+      professional-experience: "Experiência profissional"
+      sightcall-period: 'Fevereiro 2022 - Atual'
+      sightcall-description: '<li>Desenvolvedor FullStack na Sightcall .....</li>'
+      freelance-period: 'Janeiro 2021 - Fevereiro 2022'
+      freelance-description: '<li>Desenvolvedor Fullstack freelance trabalhando em vários projetos profissionais e pessoais (RoR, React, NodeJS etc..).</li>
+                              <li>Teacher-Assistant no Le Wagon.</li>'
       skills: "Compêtencias & ferramentas"
       skill-good: "Bom"
       skill-medium: "Médio"

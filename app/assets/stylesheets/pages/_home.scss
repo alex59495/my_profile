@@ -24,3 +24,15 @@ body {
     font-size: 20px;
   }
 }
+
+.block-with-margin {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: left;
+}
+
+@media(max-width: 900px) {
+  .block-with-margin {
+    margin: auto;
+  }
+}
