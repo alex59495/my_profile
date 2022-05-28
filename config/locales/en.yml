@@ -35,14 +35,14 @@ en:
       banner-job: "FullStack Developper"
       localization: "Currently in Rio de Janeiro"
       about-me: "About me"
-      about-me-text_html: "I've graduated as an Urban Engineer on 2016, but since before that, I have felt attracted to IT and technologies in general. So, in 2019, while living in <strong>Rio de Janeiro</strong>, I fortunately came across <strong style='color: rgb(106, 9, 125);'>Le Wagon</strong>'s methodology and decided to begin my professional qualification as a web development on a part-time course from January to June 2020. Since then, I've been working on freelance projects and projects of my own while I keep improving my abilities by learning languages and discovering new frameworks."
+      about-me-text_html: "I've graduated as an Urban Engineer on 2016, but since before that, I have felt attracted to IT and technologies in general. So, in 2019, while living in <strong>Rio de Janeiro</strong>, I fortunately came across <strong style='color: rgb(106, 9, 125);'>Le Wagon</strong>'s methodology and decided to begin my professional qualification as a web development on a part-time course from January to June 2020. I worked on freelance projects and projects of my own while I kept improving my abilities, and since February 2022 I'm a <strong style='color : rgb(106, 9, 125);'>Fullstack developper at Sightcall.</strong>"
       about-me-end: "I'm always open to face new challenges !"
       professional-experience: "Professional experience"
       sightcall-period: 'February 2022 - Actual'
-      sightcall-description: '<li>FullStack Developper at <b>Sightcall</b> .....</li>'
+      sightcall-description: '<li>FullStack Developper at <b>Sightcall</b> working with multiple technologies (Ruby on Rails, EmberJS, ElasticSearch etc...)</li>'
       freelance-period: 'January 2021 - February 2022'
       freelance-description: '<li>FullStack Developper <b>freelance</b> working on several professional and personal projects (RoR, React, NodeJS etc..).</li>
-                              <li>Teacher-Assistant at Le Wagon.</li>'
+                              <li>Teacher-Assistant at <b>Le Wagon</b>.</li>'
       skills: "Skills & Tools"
       skill-good: "Good"
       skill-medium: "Medium"

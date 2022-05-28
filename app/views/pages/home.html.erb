@@ -67,14 +67,16 @@
         <p class="about-me-end"><%= t('.about-me-end') %></p>
       </div>
 
-      <div class="professional-experience text-center mb-5">
+      <div class="professional-experience text-center mb-5" id="works">
         <h2>
           <%= t('.professional-experience') %>
         </h2>
         <% Experience::EXPERIENCES.each do |exp| %>
           <div class="experience mb-4">
             <div class="mb-2 font-weight-bold"><%= t(exp[:period]) %></div>
-            <%= image_tag(exp[:image], width: 200, height: 200, class: 'p-4') if exp[:image] %>
+            <%= link_to exp[:url], target: :_blank do %>
+              <%= image_tag(exp[:image], width: 200, height: 200, class: 'p-4 image-zoom') if exp[:image] %>
+            <% end %>
             <div class='block-with-margin'>
               <%= sanitize t(exp[:description]) %>
             </div>
